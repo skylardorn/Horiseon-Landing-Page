@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 1;
 }
 
 body {
@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -81,7 +81,7 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 625px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -99,6 +99,7 @@ p {
 }
 
 .benefit-cost {
+    font-family: ;
     font-size: 36px;
     background-color: #0072bb;
     margin-bottom: 32px;
@@ -117,6 +118,7 @@ p {
 }
 
 .benefit-cost h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     margin-bottom: 10px;
     text-align: center;

@@ -1,30 +1,30 @@
 * {
     box-sizing: border-box;
-    padding: 1;
-    margin: 1;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+.header div ul {
     list-style-type: none;
 }
 
-header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -77,32 +77,29 @@ p {
 
 .benefits {
     margin-right: 20px;
+    justify-content: flex-end;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 625px;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 62px;
+    box-sizing: border-box;
     color: #ffffff;
 }
 
 .benefit-brand {
-    font-size: 36px;
-    background-color: #0072bb;
-    margin-bottom: 32px;
+    margin-bottom: 62px;
     color: #ffffff;
 }
 
 .benefit-cost {
-    font-family: ;
-    font-size: 36px;
-    background-color: #0072bb;
-    margin-bottom: 32px;
+    margin-bottom: 62px;
     color: #ffffff;
 }
 
@@ -112,14 +109,11 @@ p {
 }
 
 .benefit-brand h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -143,7 +137,11 @@ p {
 }
 
 .search-engine-optimization {
+    justify-content: flex-start;
     margin-bottom: 20px;
+    margin-block: 30px;
+    margin-left: 30px;
+    margin-right: 350px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -152,7 +150,11 @@ p {
 }
 
 .online-reputation-management {
+    justify-content: flex-start;
     margin-bottom: 20px;
+    margin-block: 30px;
+    margin-left: 30px;
+    margin-right: 350px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -161,7 +163,11 @@ p {
 }
 
 .social-media-marketing {
+    justify-content: flex-start;
     margin-bottom: 20px;
+    margin-block: 30px;
+    margin-left: 30px;
+    margin-right: 350px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -197,7 +203,6 @@ p {
 }
 
 .footer {
-    background-color: #0072bb;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -205,6 +210,5 @@ p {
 }
 
 .footer h2 {
-    background-color: #0072bb;
     font-size: 20px;
 }

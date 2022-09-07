@@ -1,12 +1,3 @@
+# Horiseon-Landing-Page
 
-# Horiseon Landing Page
-
-## User Story
-
-
-## Mock Up
-
-
-## Link
-
-
+## 

@@ -6,8 +6,9 @@ The Horiseon Landing Page is a web app that has been refactured to be more acces
 
 ## Mark Up
 
-Screen shots:
+Screen shot:
 
+[!Alt Image Text](./images/Screenshot.png)
 
 ## Usage
 
